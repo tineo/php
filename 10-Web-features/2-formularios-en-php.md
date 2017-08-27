@@ -100,7 +100,7 @@ El siguiente es un sencillo **formulario** algo más complejo con los siguiente 
 
 ```
 <h2>Formulario:</h2>
-<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+<form method="post">
     Nombre:
     <input type="text" name="nombre" maxlength="50"><br>
     Contraseña:
